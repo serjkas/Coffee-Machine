@@ -1,0 +1,7 @@
+fixed_txt = input()
+fixed_txt = fixed_txt.strip("*_~`")
+#fixed_txt = fixed_txt.replace("*", "")
+#fixed_txt = fixed_txt.replace("_", "")
+##fixed_txt = fixed_txt.replace("~", "")
+#fixed_txt = fixed_txt.replace("'", "")
+print(fixed_txt)
